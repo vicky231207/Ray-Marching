@@ -23,7 +23,7 @@ function draw() {
   for (const boundry of boundries) {
     boundry.show();
   }
-  image(c, 0, 0);
+  // image(c, 0, 0);
 }
 
 function signedDist(x1, y1, x2, y2, r) {
